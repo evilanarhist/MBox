@@ -88,7 +88,7 @@
        </layout>
       </item>
       <item>
-       <widget class="QGraphicsView" name="graphicsView">
+       <widget class="View" name="graphicsView">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -103,6 +103,13 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>View</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">view.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
